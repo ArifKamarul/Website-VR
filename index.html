@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content="with=device-width, initial-
+    scale=1.0">
+    <title>VRGamingMachine</title>
+    <link rel ="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <section class = "header">
+        <nav>
+            <a href="index.html"><img src = "images/logo.png"></a>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">SYSTEM SPECIFICATION</a></li>
+                    <li><a href="">GAMES</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Virtual Reality in 8K 120FPS</h1>
+        <p>Play over 50 games with friends on this new VR gaming machine.<br>Includes iconic Square Enix games and new day one titles from many VR Game developer .</p>
+        <a href="" class="hero-btn">Dare to Take The Leap</a>
+    </div>
+
+    </section>
+
+<!--J-->
+<section class="detail">
+    <h1>MADE FOR GAMER</h1>
+    <h2>Explore a deep library VR games and play all-new games and existing VR games with more visual quality and FPS that give a new experience.</h2>
+    <p>We are working on changing minds of people by giving them a new experience of extreme adventures</p>
+
+    <div class = "row">
+        <div class = "col">
+            <h3>Extreme adventures for everyone</h3>
+            <p>
+                Designed to expand horizons and turn your world upside down. We want as many people as possible 
+                to experience a burst of emotions and an adrenaline rush, being there, where they dreamed to go, but did not have the heart 
+                to do so in reality. Age, height and weight are not important - with our simulators everyone can feel like a true adventurer.
+            </p>
+        </div>
+        <div class = "col">
+            <h3>Continuing development</h3>
+            <p>
+                We are constantly improving our games and updating the content in accordance with the latest requirements of the market and new technology.
+            </p>
+        </div>
+        <div class = "col">
+            <h3>High level of service</h3>
+            <p>
+                Our service is aimed at creating the most comfortable conditions for the client. From the moment you purchase a simulator, 
+                you become part of the Our community. You will receive constant support from our technical specialists.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!--JavaScript Toggle Menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
